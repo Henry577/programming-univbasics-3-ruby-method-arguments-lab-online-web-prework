@@ -11,7 +11,10 @@ def introduction_with_language(name, language)
   puts "Hi, my name is #{name} and i am learning to program in #{language}"
 end
 
-
+def introduction_with_language_optional(name, language)
+  if language == "Ruby"
+    do puts "Hi, my name is #{name} and i am learning to program in #{language}"
+end
 
 
 
